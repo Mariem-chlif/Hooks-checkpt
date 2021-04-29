@@ -2,6 +2,17 @@
   text-align: center;
 }
 
+.movies {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-left: 9%;
+  padding-top: 2%;
+}
+.star{
+  display: flex;
+  justify-content: center;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -11,6 +22,9 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+.img-movie {
+  height: 400px;
 }
 
 .App-header {
@@ -36,3 +50,4 @@
     transform: rotate(360deg);
   }
 }
+
