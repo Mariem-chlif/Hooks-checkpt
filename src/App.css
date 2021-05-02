@@ -37,9 +37,24 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.Container {
+  justify-content: center;
+}
 
 .App-link {
   color: #61dafb;
+}
+.jumbotron{
+  position: relative;
+  background: rgb(222, 228, 236);
+  margin-top: 23px;
+  text-align:center;
+  background: #000064;  /* old browsers fallback color*/
+ 
+  background: -webkit-linear-gradient(to right, #bee5f1, #cfc0eb); 
+   
+  background: linear-gradient(to right, #bee5f1, #cfc0eb);
+
 }
 
 @keyframes App-logo-spin {
